@@ -1,0 +1,86 @@
+ body {
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+     color: white;
+ }
+
+ #video-background {
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     overflow: hidden;
+ }
+
+ video {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     color: #fff;
+     z-index: 1;
+ }
+
+ .logo {
+     height: 43.33vh;
+     /* 1/3 of the screen height */
+     margin-bottom: 20px;
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     /* Adjust the margin as needed */
+ }
+
+ .social-icons {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+
+ .social-icon {
+     margin: 0 10px;
+     height: 11.11vh;
+     /* 1/9 of the screen height */
+ }
+
+ footer {
+     text-align: center;
+     padding: 50px;
+     color: #fff;
+     position: relative;
+     z-index: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .footer-logo {
+     height: 12.12vh;
+     /* 1/9 of the screen height */
+     margin-right: 10px;
+     margin-left: 50px;
+ }
+
+ footer p {
+     font-family: 'Montserrat', sans-serif;
+     padding-right: 10px;
+     /* Remove default margin */
+ }
+
+ /* Style the mail icon */
+ .mail-icon {
+     width: 30px;
+     /* Adjust the size as needed */
+     height: auto;
+     cursor: pointer;
+ }
